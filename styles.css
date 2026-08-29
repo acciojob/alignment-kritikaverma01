@@ -1,8 +1,18 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
 .middle {
     border: 1px solid black;
     border-spacing: 1px;
-    border-collapse: separate;
+    padding: 1px;
+    width: 90%;
+    margin: 50px auto;
 }
 
 .middle td {
@@ -26,6 +36,33 @@
     background-color: blue;
 }
 
+#table-1 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#table-1 td {
+    width: 33%;
+}
+
+#table-2 td {
+    height: 20px;
+}
+
+#table-3 td {
+    height: 220px;
+}
+
+#table-3 .green,
+#table-3 .blue {
+    height: 25px;
+}
+
+#t-image {
+    text-align: center;
+}
+
 #t-image img {
-    width: 150px;
+    width: 310px;
+    height: 220px;
 }
